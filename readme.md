@@ -1,10 +1,10 @@
 # Curso Introdução R (Datacamp)
 
-## Módulo 01:
+## Módulo 01 - Variáveis
 - Funções Matemáticas
 - Atribuição de Variáveis
 
-## Módulo 02:
+## Módulo 02 - Vetores
 - Utilização de Vetores
 - Cálculo com Vetores
 - Soma de Vetores
@@ -12,7 +12,7 @@
 - Método "names()"
 - Impressão de valores "print()"
 
-## Módulo 03:
+## Módulo 03 - Matriz
 - Utilização e criação de Matrizes 
 - Cálculo com Matrizes
 - Método matrix()
