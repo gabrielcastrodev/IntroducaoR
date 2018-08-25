@@ -41,8 +41,46 @@ print(total_vector);
 total_daily <- c(poker_vector + roulette_vector);
 print(total_daily);
 
-#Utilizando a função "sum()" para somar os valores de um vetor
+# Utilizando a função "sum()" para somar os valores de um vetor
 total_poker <- sum(poker_vector);
 total_roleta <- sum(roulette_vector);
 total_semana <- total_poker + total_roleta;
 print(total_semana);
+
+# Calculando a Diferença (de forma lógica, TRUE or FALSE) de dois vetores
+# Se um é maior ou menor que o outro
+diferenca_vetores <- (total_poker > total_roleta);
+print(diferenca_vetores);
+
+# Selecionando apenas um elemento de um vetor
+# Selecionar apenas a parte de cima de uma matriz ou um dado isolado
+# Para isso usamos Colchetes []
+poker_quarta <- poker_vector[3];
+print(poker_quarta);
+
+# Selecionando vários elementos de uma vez
+# Usamos o nome_variavel[c(0, 1)]
+# Primeiro o nome da variável, depois colchetes [] e depois o vetor com os valores c(valores)
+# variavel[c(valores)]
+poker_meio_semana <- poker_vector[c(1, 5)];
+print(poker_meio_semana);
+
+# Selecionar valores naturais sem usar a função c()
+poker_sequencia <- poker_vector[1:4];
+print(poker_sequencia);
+
+# Podemos selecionar um elemento de um vetor pelo nome deste elemento
+# Para isso utilizamos variável["Nome do Elemento"] ou para multiplos elementos variavel[c("Nome1", "Nome2)]
+poker_selecao_nomes <- poker_vector[c("Segunda-Feira", "Terça-Feira")];
+print(poker_selecao_nomes);
+
+# Para calcularmos a média de valores de um vetor, ou grupo de valores de um vetor, como a seleção acima usamos a função "mean()"
+mean(poker_selecao_nomes);
+
+# Operadores lógicos com todos os valores do vetor
+valores_positivos_poker <- poker_vector > 0; # Saber quais os valores são positivos (Me retorna TRUE or FALSE para cada elemento)
+print(teste_operador);
+
+# Selecionando apenas os valores atribuidos à uma varíavel de outros valores puxados de um vetor
+dias_ganhadores <- poker_vector[valores_positivos_poker];
+print(dias_ganhadores);
