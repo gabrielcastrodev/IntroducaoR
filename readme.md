@@ -1,7 +1,6 @@
 # Curso Introdução R (Datacamp)
-## datacamp.com
 
-### Tópicos Abordados:
+## Tópicos Abordados:
 - Funções Matemáticas
 - Utilização de Vetores
 - Atribuição de Variáveis
@@ -11,7 +10,7 @@
 - Impressão de valores "print()"
 
 #### Author
-´
 @gabrielcastrodev
 
-´
+#### Curso
+www.datacamp.com
