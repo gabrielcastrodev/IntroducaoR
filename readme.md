@@ -1,39 +1,48 @@
-# Curso IntroduÁ„o R (Datacamp)
+Ôªø# Curso Introdu√ß√£o R (Datacamp)
 
-## MÛdulo 01 - Vari·veis
-- FunÁıes Matem·ticas
-- AtribuiÁ„o de Vari·veis
+## M√≥dulo 01 - Vari√°veis
+- Fun√ß√µes Matem√°ticas
+- Atribui√ß√£o de Vari√°veis
 
-## MÛdulo 02 - Vetores
-- UtilizaÁ„o de Vetores
-- C·lculo com Vetores
+## M√≥dulo 02 - Vetores
+- Utiliza√ß√£o de Vetores
+- C√°lculo com Vetores
 - Soma de Vetores
-- UtilizaÁ„o do mÈtodo "c()"
-- MÈtodo "names()"
-- Impress„o de valores "print()"
-- SeleÁ„o de valores especificos com []
+- Utiliza√ß√£o do m√©todo "c()"
+- M√©todo "names()"
+- Impress√£o de valores "print()"
+- Sele√ß√£o de valores especificos com []
 
-## MÛdulo 03 - Matriz
-- UtilizaÁ„o e criaÁ„o de Matrizes 
-- C·lculo com Matrizes
-- MÈtodo matrix()
-- MÈtodo byrow = TRUE or FALSE
-- MÈtodo nrow = numero de linas
-- MÈtodo colnames()
-- MÈtodo rownames()
-- MÈtodo cbid() = JunÁ„o de vetores com Matrizes
-- MÈtodo rbid() = Mescla de Matrizes
-- MultiplicaÁ„o e divis„o entre Matrizes
-- SeleÁ„o especifica de valores com matrix[]
+## M√≥dulo 03 - Matrizes
+- Utiliza√ß√£o e cria√ß√£o de Matrizes 
+- C√°lculo com Matrizes
+- M√©todo matrix()
+- M√©todo byrow = TRUE or FALSE
+- M√©todo nrow = numero de linas
+- M√©todo colnames()
+- M√©todo rownames()
+- M√©todo cbid() = Jun√ß√£o de vetores com Matrizes
+- M√©todo rbid() = Mescla de Matrizes
+- Multiplica√ß√£o e divis√£o entre Matrizes
+- Sele√ß√£o especifica de valores com matrix[]
 
-## MÛdulo 04 - Fatores
-- CriaÁ„o de fatores a partir de um Vetor
-- CriaÁ„o de fatores nominais e ordinais (Ordenados)
-- UtilizaÁ„o da funÁ„o factor()
-- UtilizaÁ„o da funÁ„o levels() para mudar o nome das categorias
-- UtilizaÁ„o da funÁ„o summary() para retornar a descriÁ„o do fator
-- FunÁıes lÛgicas com fatores
+## M√≥dulo 04 - Fatores
+- Cria√ß√£o de fatores a partir de um Vetor
+- Cria√ß√£o de fatores nominais e ordinais (Ordenados)
+- Utiliza√ß√£oo da fun√ß√£o factor()
+- Utiliza√ß√£o da fun√ß√£o levels() para mudar o nome das categorias
+- Utiliza√ß√£oo da fun√ß√£o summary() para retornar a descri√ß√£o do fator
+- Fun√ß√µes l√≥gicas com fatores
 - factor(vector_name, order = (TRUE or FALSE), levels = c(ordem decrescente da hierarquia do vetor)
+
+## M√≥dulo 05 - DataFrames
+- Cria√ß√£o de um DataFrame com data.frame()
+- Manipula√ß√£o de um DataFrame
+- Utiliza√ß√£o das fun√ß√µes head() e tail()
+- Utiliza√ß√£o da fun√ß√£o str() para obter um resumo do DataFrame
+- Fun√ß√£o subset() para passarmos condi√ß√µes e selecionarmos valores especificos
+- Fun√ß√£o order() para retornarmos a ordem crescente dos valores em uma vari√°vel
+- Fun√ß√£o "$" para retornar uma determinada vari√°vel do DataFrame
 
 #### Author
 @gabrielcastrodev
