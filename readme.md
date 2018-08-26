@@ -44,6 +44,12 @@
 - Função order() para retornarmos a ordem crescente dos valores em uma variável
 - Função "$" para retornar uma determinada variável do DataFrame
 
+## Módulo 06 - Listas
+- Criação de listas com list()
+- Seleção de itens dentro de uma lista
+- Conceitos gerais 
+- Final do Curso
+
 #### Author
 @gabrielcastrodev
 
