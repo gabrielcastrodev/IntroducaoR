@@ -51,3 +51,17 @@ print(mescla_matrizes)
 # Assim como temos o rowSums() para somar linhas, nós temos o colSums() para somar as colunas
 soma_colunas <- colSums(mescla_matrizes)
 print(soma_colunas)
+
+# Para selecionarmos valores especificos de uma matrix, também usamos os colchetes []
+seleciona_especifico <- mescla_matrizes[1:2, 2]
+print(seleciona_especifico)
+
+# Para dividirmos ou multipicarmos uma matrix
+# Um número multiplica todos os itens da matrix um por um
+print(mescla_matrizes)
+multiplica_matrix <-5 * mescla_matrizes
+print(mescla_matrizes)
+
+# Divide um número por todos os elementos da matrix
+divide_matrix <- mescla_matrizes / 5
+print(divide_matrix)
